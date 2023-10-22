@@ -36,13 +36,12 @@ const Footer = () => {
     },
   });
   const apiVersionUrl = getApiVersionUrl(backendVersionData?.backend_version);
-  const issueUrl = useIssueUrl(backendVersionData?.backend_version);
   const BLOCKSCOUT_LINKS = [
     {
       icon: editIcon,
       iconSize: '16px',
       text: 'Submit an issue',
-      url: issueUrl,
+      url: 'https://github.com/uns-Technology',
     },
     {
       icon: cannyIcon,
@@ -54,32 +53,32 @@ const Footer = () => {
       icon: gitIcon,
       iconSize: '18px',
       text: 'Contribute',
-      url: 'https://github.com/blockscout/blockscout',
+      url: 'https://github.com/uns-Technology',
     },
     {
       icon: twitterIcon,
       iconSize: '18px',
       text: 'Twitter',
-      url: 'https://www.twitter.com/blockscoutcom',
+      url: 'https://twitter.com/_unsofficial_',
     },
     {
       icon: discordIcon,
       iconSize: '18px',
       text: 'Discord',
-      url: 'https://discord.gg/blockscout',
+      url: 'https://discord.com/invite/wjFHg94mAW',
     },
-    {
-      icon: discussionsIcon,
-      iconSize: '20px',
-      text: 'Discussions',
-      url: 'https://github.com/orgs/blockscout/discussions',
-    },
-    {
-      icon: donateIcon,
-      iconSize: '20px',
-      text: 'Donate',
-      url: 'https://github.com/sponsors/blockscout',
-    },
+    // {
+    //   icon: discussionsIcon,
+    //   iconSize: '20px',
+    //   text: 'Discussions',
+    //   url: 'https://github.com/orgs/blockscout/discussions',
+    // },
+    // {
+    //   icon: donateIcon,
+    //   iconSize: '20px',
+    //   text: 'Donate',
+    //   url: 'https://github.com/sponsors/blockscout',
+    // },
   ];
 
   const frontendLink = (() => {
