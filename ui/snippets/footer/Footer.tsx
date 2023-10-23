@@ -125,11 +125,11 @@ const Footer = () => {
           Unscan allows easy access to UNS network, explore blocks, transactions, and smart contracts.
         </Text>
         <VStack spacing={1} mt={6} alignItems="start">
-          {apiVersionUrl && (
+          {/* {apiVersionUrl && (
             <Text fontSize="xs">
               Backend: <Link href={apiVersionUrl} target="_blank">{backendVersionData?.backend_version}</Link>
             </Text>
-          )}
+          )} */}
           {frontendLink && (
             <Text fontSize="xs">
               Frontend: {frontendLink}
