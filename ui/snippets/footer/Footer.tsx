@@ -43,12 +43,12 @@ const Footer = () => {
       text: 'Submit an issue',
       url: 'https://github.com/uns-Technology',
     },
-    {
-      icon: cannyIcon,
-      iconSize: '20px',
-      text: 'Feature request',
-      url: 'https://blockscout.canny.io/feature-requests',
-    },
+    // {
+    //   icon: cannyIcon,
+    //   iconSize: '20px',
+    //   text: 'Feature request',
+    //   url: 'https://blockscout.canny.io/feature-requests',
+    // },
     {
       icon: gitIcon,
       iconSize: '18px',
