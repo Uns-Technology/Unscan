@@ -120,6 +120,11 @@ export default function useNavItems(): ReturnType {
         icon: graphQLIcon,
         isActive: pathname === '/graphiql',
       } : null,
+      {
+        text: 'RPC API',
+        icon: rpcIcon,
+        url: 'https://docs.uns.technology/uns-blockchain/api/rpc',
+      },
     ].filter(Boolean);
 
     const mainNavItems: ReturnType['mainNavItems'] = [
