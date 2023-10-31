@@ -120,6 +120,16 @@ export default function useNavItems(): ReturnType {
         icon: graphQLIcon,
         isActive: pathname === '/graphiql',
       } : null,
+      // {
+      //   text: 'RPC API',
+      //   icon: rpcIcon,
+      //   url: 'https://docs.blockscout.com/for-users/api/rpc-endpoints',
+      // },
+      // {
+      //   text: 'Eth RPC API',
+      //   icon: rpcIcon,
+      //   url: ' https://docs.blockscout.com/for-users/api/eth-rpc',
+      // },
     ].filter(Boolean);
 
     const mainNavItems: ReturnType['mainNavItems'] = [
